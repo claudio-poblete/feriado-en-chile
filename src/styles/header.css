@@ -1,0 +1,39 @@
+
+
+nav,
+.nav__list-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+nav {
+  justify-content: space-between;
+  padding: 1rem 2rem;
+  align-items: center;
+}
+
+.link,
+.logo {
+  text-decoration: none;
+  color: #FFFFFF;
+  letter-spacing: 2px;
+  transition: .4s ease-in;
+}
+
+.link:hover,
+.logo:hover {
+  color: #f71111;
+}
+
+.logo {
+  font-size: 1.5rem;
+}
+
+.link {
+  font-size: 1.25rem;
+}
+
+.nav__list-container {
+  gap: 2rem;
+  list-style-type: none;
+}
