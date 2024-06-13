@@ -12,7 +12,7 @@ const HeroSection = () => {
           Descubre todos los feriados en Chile y planifica tus días libres y vacaciones de manera eficiente.
         </p>
         <div className='hero__button_container'>
-          <a className='primary__button' href='#verFeriados'>
+          <a className='primary__button' href='#showHolidays'>
             Todos los feriados
           </a>
           <a className='secondary__button' href='buscarFeriado'>

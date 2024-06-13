@@ -14,7 +14,7 @@ const Header = () => {
             </a>
           </li>
           <li className='list__link'>
-            <a href='#verFeriados' className='link'>
+            <a href='#showHolidays' className='link'>
               Ver Feriados
             </a>
           </li>

@@ -1,0 +1,42 @@
+.show__holidays-section{
+  padding: 5rem;
+  background-color: rgb(2,8,8);
+  color: #FFFFFF;
+  display: flex;
+  flex-direction: column;
+}
+
+.show__holidays-title{
+  padding-bottom: 3rem;
+  font-size: 2.5rem;
+  letter-spacing: 1px;
+}
+
+.first__span{
+  color: #f71111;
+}
+
+.second__span{
+  color: #1928d2;
+}
+
+.table__row{
+  background-color: #1928d2;
+  border: solid 1px #1928d2;
+}
+
+.table__column{
+  border: solid 1px #f71111;
+  transition: background-color .4s ease-in-out;
+}
+
+.table__row, .table__column{
+  padding: 0.5rem 0;
+  text-align: center;
+  cursor: pointer;
+  border-radius: 0.5rem;
+}
+
+.table__column:hover{
+  background-color: #f71111;
+}

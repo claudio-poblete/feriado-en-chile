@@ -1,5 +1,6 @@
 import { useEffect, useState } from 'react'
 import { v4 as uuidv4 } from 'uuid'
+import '../styles/mi-api.css'
 
 const MiApi = () => {
   const [holidays, setHolidays] = useState([])
@@ -44,35 +45,35 @@ const MiApi = () => {
     return `${day}-${month}-${year}`
   }
   return (
-    <>
-      <h2>Feriados de Chile 2024</h2>
+    <section id='showHolidays' className='show__holidays-section'>
+      <h2 className='show__holidays-title'>Feriados <span className='first__span'>de Chile</span> <span className='second__span'>2024</span></h2>
       {loading
         ? (
-          <p>Cargando...</p>
+          <p className='show__holidays-loading'>Cargando...</p>
           )
         : (
-          <table>
+          <table className='show__holidays-table'>
             <thead>
-              <tr>
-                <th>Título</th>
-                <th>Fecha</th>
-                <th>Tipo</th>
-                <th>Irrenunciable</th>
+              <tr className='table__row-container'>
+                <th className='table__row'>Nombre del Feriado</th>
+                <th className='table__row'>Fecha</th>
+                <th className='table__row'>Tipo</th>
+                <th className='table__row'>Irrenunciable</th>
               </tr>
             </thead>
             <tbody>
               {holidays.map((holiday) => (
-                <tr key={holiday.id}>
-                  <td>{holiday.title}</td>
-                  <td>{holiday.date}</td>
-                  <td>{holiday.type}</td>
-                  <td>{holiday.inalienable ? 'Sí' : 'No'}</td>
+                <tr key={holiday.id} className='table__column-container'>
+                  <td className='table__column'>{holiday.title}</td>
+                  <td className='table__column'>{holiday.date}</td>
+                  <td className='table__column'>{holiday.type}</td>
+                  <td className='table__column'>{holiday.inalienable ? 'Sí' : 'No'}</td>
                 </tr>
               ))}
             </tbody>
           </table>
           )}
-    </>
+    </section>
   )
 }
 

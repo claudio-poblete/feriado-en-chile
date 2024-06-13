@@ -1,6 +1,5 @@
 .hero__section {
   display: flex;
-  align-items: center;
   justify-content: center;
   min-height: 100vh;
   position: relative;
@@ -8,7 +7,7 @@
 
 .hero__overlay {
   background-color: rgba(0, 0, 0, 0.6);
-  padding: 3rem;
+  padding: 1rem 3rem;
   border-radius: 1rem;
   text-align: center;
 }
@@ -52,7 +51,7 @@
 }
 
 .secondary__button {
-  border: solid 1px #515ffa;
+  border: solid 1px #1928d2;
   color: #1928d2;
   background-color: rgba(255, 255, 255, 0.7);
 }
@@ -62,7 +61,7 @@
 }
 
 .secondary__button:hover {
-  background-color: #515ffa;
+  background-color: #1928d2;
   color: #FFFFFF;
 }
 
