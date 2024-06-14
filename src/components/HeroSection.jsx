@@ -2,7 +2,7 @@ import '../styles/hero-section.css'
 
 const HeroSection = () => {
   return (
-    <section id='home' className='hero__section'>
+    <section className='hero__section'>
       <div className='hero__overlay'>
         <div className='hero__title-container'>
           <h2>Feriados</h2>

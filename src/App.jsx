@@ -7,7 +7,7 @@ import MiApi from './components/MiApi'
 function App () {
   return (
     <>
-      <div className='header'>
+      <div id='home' className='header'>
         <Header />
         <HeroSection />
       </div>
