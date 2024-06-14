@@ -16,18 +16,6 @@ Para utilizar esta aplicación:
 
    ```bash
    git clone https://github.com/claudio-poblete/feriado-en-chile.git
-2. Abre el archivo index.html en tu navegador web.
-
-3. La lista de feriados se mostrará automáticamente.
-
-## Uso
-
-Para utilizar esta aplicación:
-
-1. Clona este repositorio:
-
-   ```bash
-   git clone https://github.com/claudio-poblete/feriado-en-chile.git
 
 2. Abre el archivo index.html en tu navegador web.
 
