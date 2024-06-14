@@ -20,9 +20,6 @@ Para utilizar esta aplicación:
 
 3. La lista de feriados se mostrará automáticamente.
 
-
-markdown
-Copiar código
 # Feriado en Chile
 
 Este repositorio contiene una aplicación web simple que muestra una lista de los feriados en Chile, utilizando la API de datos abiertos del gobierno de Chile.
