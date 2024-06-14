@@ -1,0 +1,22 @@
+.footer__container {
+  background-color: rgb(2, 8, 8);
+  color: #FFFFFF;
+  padding: 2rem;
+  text-align: center;
+  margin-top: auto;
+}
+
+.footer__content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.footer__text {
+  margin-bottom: 0.5rem;
+}
+
+.footer__author {
+  font-weight: bold;
+  color: #f71111;
+}

@@ -2,7 +2,7 @@ import '../styles/hero-section.css'
 
 const HeroSection = () => {
   return (
-    <section className='hero__section'>
+    <section id='home' className='hero__section'>
       <div className='hero__overlay'>
         <div className='hero__title-container'>
           <h2>Feriados</h2>
@@ -15,7 +15,7 @@ const HeroSection = () => {
           <a className='primary__button' href='#showHolidays'>
             Todos los feriados
           </a>
-          <a className='secondary__button' href='buscarFeriado'>
+          <a className='secondary__button' href='#searchHolidays'>
             Buscar Feriados
           </a>
         </div>

@@ -1,0 +1,72 @@
+.search__holidays-section{
+  background-color: rgb(20, 20, 20);
+  color: #FFFFFF;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.search__holidays-title{
+  font-size: 3rem;
+  padding-bottom: 1rem;
+}
+
+.search__form-container{
+  width: 760px;
+}
+
+.search__container{
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.search__input{
+  width: 100%;
+  font-weight: 700;
+  padding: 0.5rem;
+  border-radius: 0.5rem;
+}
+
+.table__head{
+  background-color: #1928d2;
+  border: solid 1px #1928d2;
+}
+
+.table__data{
+  border: solid 1px #f71111;
+  transition: background-color .4s ease-in-out;
+}
+
+.table__head, .table__data{
+  padding: 0.2rem 2rem;
+  min-height: 100%;
+  text-align: center;
+  cursor: pointer;
+  border-radius: 0.5rem;
+}
+
+.table__data:hover{
+  background-color: #f71111;
+}
+
+.fade-enter {
+  opacity: 0;
+  transform: translateY(-10px);
+}
+.fade-enter-active {
+  opacity: 1;
+  transform: translateY(0);
+  transition: opacity 500ms, transform 500ms;
+}
+.fade-exit {
+  opacity: 1;
+  transform: translateY(0);
+}
+.fade-exit-active {
+  opacity: 0;
+  transform: translateY(-10px);
+  transition: opacity 500ms, transform 500ms;
+}

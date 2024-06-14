@@ -3,6 +3,7 @@
   background-color: rgb(2,8,8);
   color: #FFFFFF;
   display: flex;
+  min-height: 100vh;
   flex-direction: column;
 }
 
@@ -18,6 +19,49 @@
 
 .second__span{
   color: #1928d2;
+}
+
+.filter__container {
+  display: flex;
+  gap: 1rem;
+  margin-bottom: 2rem;
+}
+
+.filter__item {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.filter__item label {
+  font-size: 1rem;
+  font-weight: bold;
+  color: #FFFFFF;
+}
+
+.filter__item select {
+  padding: 0.5rem;
+  font-size: 1rem;
+  border-radius: 0.5rem;
+  border: solid 1px #f71111;
+  background-color: rgb(2,8,8);;
+  color: #FFFFFF;
+  cursor: pointer;
+  transition: background-color 0.4s ease-in-out;
+}
+
+.filter__item select:hover {
+  background-color: #f71111;
+}
+
+.filter__item select:focus {
+  outline: none;
+  background-color: #f71111;
+}
+
+.filter__item select option {
+  background-color: #1928d2;
+  color: #FFFFFF;
 }
 
 .table__row{
